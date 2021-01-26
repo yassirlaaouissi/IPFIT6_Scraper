@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  web:
+    build: .
+    container_name: ipfit6_scraper_yassir
+    volumes:
+    - ./Output:/app/Output
